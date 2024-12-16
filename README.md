@@ -30,12 +30,12 @@ This is strictly a personal project for academic purposes
 ### Credits
 Udacity course materials were used in the creation of this project
 
-**first 2 documentaion commits were on the master branch, I started work on the README straight away**
-**to prevent problems with the merge README in master was cleared before the merge**
-**final notes were added to the README in documentaion before the merge**
-**first merge (of documentation into master) failed**
-**removed the README from master branch**
-**second merge failed, strategy ort**
-**ran git commit --amend on master, third merge success**
+* **first 2 documentaion commits were on the master branch, I started work on the README straight away**
+* **to prevent problems with the merge README in master was cleared before the merge**
+* **final notes were added to the README in documentaion before the merge**
+* **first merge (of documentation into master) failed**
+* **removed the README from master branch**
+* **second merge failed, strategy ort**
+* **ran git commit --amend on master, third merge success**
 
 
