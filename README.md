@@ -2,6 +2,7 @@
 Project forked from udacity/pdsnd_github to https://github.com/Frank-ai755/pdsnd_github.git on 16/12//24 (d/m/y)
 
 # Bikeshare Project part 2
+_A Udacity version control project_
 
 ## Description
 Bikeshare Project part 2 is a cloned repository set up for the purpose of 
