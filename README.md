@@ -25,6 +25,8 @@ Bikeshare Project part 2 is a cloned repository set up for the purpose of
 
 `chicago.csv`, `new_york_city`, `washington` 3 bikeshare data files which bikeshare.py operates on added to .gitignore 16/12 (no evaluation required)
 
+### Contributions
+This is strictly a personal project for academic purposes
 
 ### Credits
 Udacity course materials were used in the creation of this project
