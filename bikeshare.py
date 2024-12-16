@@ -1,3 +1,8 @@
+"""
+original file added to forked version of pdnsd_github on 16/12/2024
+
+"""
+
 import time
 import pandas as pd
 import numpy as np
@@ -18,10 +23,17 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
+    """
+    refactoring #1 16/12/24
+    replace strings in 3 print calls with local variable
+    """
+
+    errormessage = "Please try entering that again."
+    
     while True:
         city = input("Enter city name as : Chicago, New York City, or Washington: ").lower()
         if city not in ['chicago', 'new york city', 'washington']:
-            print("Please try entering that again.")
+            print(errormessage)
             continue
         else:
             break
@@ -31,7 +43,7 @@ def get_filters():
     while True:
         month = input("Select month: All, January, February, March, April, May, or June: ").lower()
         if month not in ['all', 'january', 'february', 'march', 'april', 'may', 'june']:
-            print("Please try entering that again.")
+            print(errormessage)
             continue
         else:
             break
@@ -41,7 +53,7 @@ def get_filters():
     while True:
         day = input("Select Day: All, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday: ").lower()
         if day not in ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']:
-            print("Please try entering that again.")
+            print(errormessage)
             continue
         else:
             break
@@ -195,12 +207,17 @@ def display_raw_data(df):
     Asks if the user would like to see the next 5 lines of raw data.  
     """
     
-    x = 0
+    """
+    refactoring #2 16/12/24
+    replace the non-descriptive x with dataline
+    """
+    
+    dataline = 0
     while True:
         reply = input("View 5 lines of raw data?/n Please enter Yes or No:  ")
         if reply.lower() == 'yes':
-            print(df[x:x+5])
-            x = x+5
+            print(df[dataline:dataline+5])
+            dataline = dataline+5
         else:
             break
 
