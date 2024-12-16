@@ -207,12 +207,17 @@ def display_raw_data(df):
     Asks if the user would like to see the next 5 lines of raw data.  
     """
     
-    x = 0
+    """
+    refactoring #2 16/12/24
+    replace the non-descriptive x with dataline
+    """
+    
+    dataline = 0
     while True:
         reply = input("View 5 lines of raw data?/n Please enter Yes or No:  ")
         if reply.lower() == 'yes':
-            print(df[x:x+5])
-            x = x+5
+            print(df[dataline:dataline+5])
+            dataline = dataline+5
         else:
             break
 
