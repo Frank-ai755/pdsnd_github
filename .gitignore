@@ -1,1 +1,6 @@
 .github/**
+README.md.bak
+.gitignore.bak
+chicago.csv
+new_york_city.csv
+washington.csv
